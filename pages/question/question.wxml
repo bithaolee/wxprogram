@@ -1,0 +1,40 @@
+<view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
+    <view class="page__bd page__bd_spacing">
+        <scroll-view scroll-y="true" style="height: 500px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+            <block wx:for="{{dialogs}}">
+                <block wx:if="{{ item.code === 100000 }}">
+                    <view class="scroll-view-item bc_green">
+                        {{item.text}}
+                    </view>
+                </block>
+                <block wx:elif="{{ item.code === 200000 }}">
+                    <view class="scroll-view-item bc_green">
+                        {{item.text}}
+                    </view>
+                </block>
+                <block wx:elif="{{ item.code === 302000 }}">
+                    <view class="scroll-view-item bc_green">
+                        {{item.text}}
+                    </view>
+                </block>
+                <block wx:elif="{{ item.code === 308000 }}">
+                    <view class="scroll-view-item bc_green">
+                        {{item.text}}
+                    </view>
+                </block>
+            </block>
+        </scroll-view>
+        <form bindsubmit="formSubmit" bindreset="formReset">
+            <view class="weui-flex" style="margin:auto;">
+                <view class="weui-flex__item">
+                    <view class="placeholder">
+                        <input type="text" name="question" class="weui-input" placeholder="你想问啥？" />
+                    </view>
+                </view>
+                <view class="button-sp-area">
+                    <button formType="submit" class="weui-btn mini-btn" size="mini" type="primary">确定</button>
+                </view>
+            </view>
+        </form>
+    </view>
+</view>

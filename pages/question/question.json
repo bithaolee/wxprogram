@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTitleText": "小智问答",
+  "navigationBarTextStyle":"white",
+  "backgroundColor": "#171719",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

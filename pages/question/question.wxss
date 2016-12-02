@@ -1,0 +1,22 @@
+.placeholder{
+    background-color: #EBEBEB;
+    height: 2.3em;
+    line-height: 2.3em;
+    margin: 5px;
+    padding: 0px 10px;
+    color: #cfcfcf;
+}
+
+.button-sp-area{
+  margin: auto;
+  width: 20%;
+}
+
+.mini-btn{
+	vertical-align: middle;
+	margin: auto auto;
+}
+
+.chat-input{
+	height: 15%;
+}

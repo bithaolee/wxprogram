@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/question/question",
+    "pages/setting/setting"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#171719",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon_tabbar.png",
+      "selectedIconPath": "images/icon_tabbar.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "images/icon_tabbar.png",
+      "selectedIconPath": "images/icon_tabbar.png"
+    },{
+      "pagePath": "pages/question/question",
+      "text": "问答",
+      "iconPath": "images/icon_tabbar.png",
+      "selectedIconPath": "images/icon_tabbar.png"
+    },{
+      "pagePath": "pages/setting/setting",
+      "text": "设置",
+      "iconPath": "images/icon_tabbar.png",
+      "selectedIconPath": "images/icon_tabbar.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 5000,
+    "connectSocket": 2000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
